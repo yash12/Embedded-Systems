@@ -1,0 +1,35 @@
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+<meta name:“viewport" content="width=device-width, initial-scale=1 ">
+<script type=“text/javascript" src=“/serverFile?filename=bolt.js"> setDebug(true);
+</script>
+<center >
+<b>>BOLT — BULB CONTROL</b>
+</center>
+<style>
+btn-width-height(
+width:40px;
+height:25px;
+</style>
+</head>
+<body slyle="font-family: Roboto;background: #3498DB;">
+<center>
+<div style:"margin-top:80px;">
+<table cellpadding=“10">
+<tr>
+<th></th>
+<th><button class:"btn-width-height" type:"button" 0nclick=“digitalWnte(AO,HlGH);“> <b>ON</b> </button></th>
+<th></th>
+</tr>
+<tr>
+<th></lh>
+<th><button class= "btn-width-height" type="button" onclick= digitalWrite(AO,LOW);“> <b>OFF</b> </button></th>
+<th></th>
+</tr>
+</table>
+</div>
+</center>
+</body>
+</html>
